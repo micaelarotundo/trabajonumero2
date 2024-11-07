@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <title>Sueña en grande✨</title>
+  </head>
+  <body>
+    <h1 class="headertitulo">✨SUEÑA EN GRANDE✨</h1>
+    <header class="header">
+        <nav class="headernav">
+            <div class="headerlogo">
+                <img class="imglogo" src="../img/logo.jpeg" alt="logo">
+            </div>  
+            <h2 class="headersubtitulo">VENTA DE MEDIAS</h2>
+        </nav>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/nosotras.html">Nosotras</a></li>
+        <li><a href="../pages/productos.html">Productos</a></li>
+        <li><a href="../pages/mediosdepago.html">Medios de pago</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <main class="maincontacto">
+    <h2>Contate con nosotros</h2>
+      <section>
+        <form action="/enviar" method="post">
+          <div class="form-container">
+          <div>
+              <label for="Nombre">Nombre:</label>
+                <input type="text"id="Nombre"name="Nombre" placeholder="Micaela" required>
+          </div>
+          <div>
+              <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" required />
+          </div>
+          <div>
+                <input type="radio" name="genero" id="hombre" value="hombre" />
+                  <label for="hombre">Hombre</label>
+                <input type="radio" name="genero" id="mujer" value="mujer" />
+                  <label for="mujer">Mujer</label>
+                <input type="radio" name="genero"id="no mencionar" value="no mencionar"/>
+                  <label for="no mencionar">No mencionar</label>
+          </div>
+          <div class="form-inline">
+              <label for="pais">Pais:</label>
+              <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Brasil">Brasil</option>
+              </select>
+          </div>
+          <div class="mensaje">
+                <label for="mensaje">Deja tu mensaje</label>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea>
+          </div>
+          <div>
+                <input type="checkbox" id="terminos" name="terminos" required />
+                  <label for="terminos"> Acepto los terminos y condiciones</label>
+          </div>
+    <input type="submit" value="Enviar" />
+    </div>
+    </form>
+    </section>
+    </main>
+    <footer class="footer">
+      <h4 class="footeremail">Email 📩 engrandesuena@gmail.com</h4>
+      <div>
+        <h4 class="footercelular">Celular 🤳 1122334455</h4>
+      </div>
+      <div class="infoinsta"> 
+        <img class="imginsta" src="../img/insta.png" alt="logo instagram">
+        <h4 class="instagram">engrande.ok</h4>
+      </div>
+    </footer>
+  </body>
+</html>
